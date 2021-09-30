@@ -18,4 +18,4 @@ The Invoke-AADHybridLockOOBE.ps1 script invoked on login as Active Setup command
 
 The AADHybridLockOOBE.ps1 is the script which displays the custom OOBE like splash screen
 
-The FinalToastNotification.ps1 and LaunchEdge.ps1 scripts are sent as part of this package to be locally available on the device which will be later used via triggers (PS wrapped as Win32 apps) from Intune. 
+The FinalToastNotification.ps1 is sent as part of this package to be locally available on the device which will be later used via trigger (PS wrapped as Win32 apps) from Intune. 
