@@ -12,7 +12,7 @@ The Invoke-AADHybridLockOOBE.ps1 script invoked on login as Active Setup command
 
 	○ creates PS Instances (runspaces) which the AADHybridLockOOBE.ps1 script will utilize to display the OOBE splash screen.
 	○ invokes AADHybridLockOOBE.ps1
-	○ keeps the AADHybridLockOOBE.ps1 script alive to continue display the OOBE splash screen till the Hybrid Join process gets completed (Event ID 306 which indicates the Hybrid Azure AD join process has completed succesfully)
+	○ keeps the AADHybridLockOOBE.ps1 script alive to continue display the OOBE splash screen till the Hybrid Join process gets completed
 	○ on detecting the success event ID, initiates a force restart
 	○ before restart, sets up Run-Once key for InitialToastNotification.ps1 to display the Initial Toast Popup
 
