@@ -1,0 +1,9 @@
+Install Command: powershell.exe -executionpolicy bypass -windowstyle hidden -nologo -file ./FinalToastNotification_Trigger.ps1
+Uninstall command: cmd /c
+
+Install Behaviour: User
+
+Detection Method: File
+File Location: C:\ProgramData\FinalToastNotification
+
+Dependencies: Put all the apps that are required to be detected by this script before the device is deemed ready for use.

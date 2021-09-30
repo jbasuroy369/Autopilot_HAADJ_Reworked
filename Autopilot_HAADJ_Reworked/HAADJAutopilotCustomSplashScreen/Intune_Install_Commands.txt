@@ -1,0 +1,5 @@
+Install Command: powershell.exe -executionpolicy bypass -windowstyle hidden -nologo -file .\Set-AADHybridLockOOBE.ps1
+Uninstall command: cmd /c
+
+Detection Method: File
+File Location: C:\ProgramData\Microsoft\IntuneManagementExtension\Logs\Set-AADHybridLockOOBE.log
