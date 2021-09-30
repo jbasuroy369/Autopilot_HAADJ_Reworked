@@ -13,5 +13,7 @@ This solution ensures that the end-user is presented with the Desktop screen onl
 	• monitoring status of the Hybrid join process in backend, and finally
 	• restarting the device when it detects the Hybrid join process has finished
 
+![image](https://user-images.githubusercontent.com/86624602/135493888-e23ba744-2122-4ebe-9aa5-b03e0742e086.png)
+
 This ensures that when the device finally comes back post the reboot, the user sign-in will fetch the device the required Azure AD PRT to start communicating with the M365 services.
 
