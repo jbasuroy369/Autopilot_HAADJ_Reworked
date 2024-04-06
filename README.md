@@ -9,8 +9,8 @@ Considering this is true fact for most Hybrid Azure AD join provisioning, you mi
 This solution ensures that the end-user is presented with the Desktop screen only when the device has completed the Hybrid Join process by
 
 	• masking the Desktop screen on initial Windows login with a custom Windows 10 OOBE look-a-like screen
-	• disabling user activity till the setup completes by hiding the taskbar and cursor
-	• monitoring status of the Hybrid join process in backend, and finally
+	• disabling user activity till the setup is completed by hiding the taskbar and cursor
+	• monitoring the status of the Hybrid join process in the backend, and finally
 	• restarting the device when it detects the Hybrid join process has finished
 
 ![image](https://user-images.githubusercontent.com/86624602/135493888-e23ba744-2122-4ebe-9aa5-b03e0742e086.png)
